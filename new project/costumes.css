@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*cover*/
+#cover {
+  background: #222 url('img/forest-path.jpg') center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#cover-caption {
+  width: 100%;
+}
+
+.jumbotron .container {
+  max-width: 60rem;
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  color: #fff;
+}
+
+#carousel {
+  /*height: 60%;*/
+  padding: 3rem 4rem;
+}
+
+.carousel-item img{
+  max-height: 50%;
+}
+
+/*.section-content {
+  padding: 5rem 0;
+}*/
+
+#what-i-do {
+  padding: 2rem 0;
+}
+
+#what-i-do img {
+  padding: 1rem;
+}
+
+#about {
+  background: url('img/aurora.jpg') center center no-repeat;
+  background-size: cover;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  /*background: rgba(255,255,255,0.4);*/
+  color: #fff;
+  padding: 2rem;
+}
+
+#social {
+  padding: 2rem 0;
+}
+
+#footer-main {
+  background: #222;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2.5rem 0;
+}
