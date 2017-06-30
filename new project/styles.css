@@ -1,9 +1,32 @@
 html, body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
 }
 
 img {
   max-width: 100%;
+}
+
+.btn-outline-success {
+  color: #686868;
+  border-color: #686868;
+}
+
+a {
+  color: #9305f6;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+   color: #9305f6;
+}
+
+.fa {
+  color: #6E05F6;
 }
 
 /*cover*/
@@ -17,24 +40,23 @@ img {
   align-items: center;
 }
 
+.display-3 {
+  font-family: 'Yellowtail', cursive;
+  color: #9305f6;
+}
+
 #cover-caption {
   width: 100%;
 }
 
 .jumbotron .container {
-  max-width: 50rem;
-  background: rgba(0,0,0,0.5);
+  max-width: 70rem;
+  background: rgba(0,0,0,0.8);
   padding: 2rem;
   color: #fff;
 }
 
-/*.carousel-item img{
-  min-width: 100%;
-}
-
-.section-content {
-  padding: 5rem 0;
-}*/
+/*what I do*/
 
 #what-i-do {
   padding: 2rem 0;
@@ -44,27 +66,49 @@ img {
   padding: 1rem;
 }
 
+.card-subtitle {
+  color: #9305f6;
+}
+
+/*About*/
+
 #about {
-  background: url('img/aurora.jpg') center center no-repeat;
+  background: linear-gradient(to bottom, rgba(74,4,165,0.05) 0%,rgba(74,4,165,0.4) 100%);
   background-size: cover;
-  height: 60%;
-  display: flex;
-  align-items: center;
 }
 
 .about-text {
-  /*background: rgba(255,255,255,0.4);*/
-  color: #fff;
+  color: #000;
   padding: 2rem;
 }
 
-#social {
-  padding: 2rem 0;  
+.about-img {
+  width: 100%;
 }
 
+/*Social*/
+
+#social {
+  padding: 2rem 0;
+}
+
+/*footer*/
+
 #footer-main {
-  background: #222;
+  background: #909090;
   color: #fff;
   font-size: 0.8rem;
   padding: 2.5rem 0;
+}
+
+blockquote {
+  border-left: none !important;
+}
+
+.blockquote-footer {
+  color: #fff;
+}
+
+.btn-success-outline {
+  color:#9305f6;
 }
