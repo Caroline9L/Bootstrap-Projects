@@ -82,8 +82,8 @@ h1 {
   padding: 2rem;
 }
 
-.about-img {
-  width: 100%;
+#about img {
+  width: 25%;
 }
 
 /*Social*/
