@@ -1,0 +1,180 @@
+body {
+	background: url('img/aurora.jpg') no-repeat center center fixed;
+  background-size: cover;
+	color:#fff;
+  background-color:#333;
+  font-family: 'Open Sans Condensed', sans-serif;
+  align-items: center;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.btn-success {
+  background-color: #496048;
+  border-color: #496048;
+}
+
+a {
+  color: #496048;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+   color: #ffffff;
+   text-shadow: 5px 5px 7px #000;
+}
+
+.fa {
+  color: #496048;
+}
+
+#headline {
+  height: 60rem;
+  display: flex;
+}
+
+.jumbotron {
+  padding-top: 30rem;
+  padding-bottom: 30rem;
+  margin-bottom: 0;
+  background: transparent;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 30rem;
+  padding: 2rem;
+  color: #fff;
+}
+
+.jumbotron p {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.about {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  background: rgba(0,0,0,0.6);
+  min-width: 200px;
+  /*max-width: 30%;*/
+}
+
+.card > img {
+  margin-bottom: 1.5rem;
+  max-width: 75%;
+  max-height: 80%;
+}
+
+.card-text {
+  color: #fff;
+  font-size: 100%;
+}
+
+/*Episodes*/
+
+#episodes {
+  margin: 5rem 0;
+  color: #fff;
+}
+
+#episodes .container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+}
+
+.media {
+  padding: 1rem 0;
+}
+
+#episodes img {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+#episodes a{
+  color: lightgreen;
+}
+
+.media-body {
+  font-size: 110%;
+}
+
+/*Social Media*/
+
+#social {
+  padding: 2rem 0;
+  margin: 5rem 0;
+}
+
+#social a {
+  color: lightgreen;
+}
+
+/*footer*/
+
+#footer-main {
+  background: #000;
+  color: #686868;
+  font-size: 0.8rem;
+  padding: 2.5rem 0;
+}
+
+#footer-main a{
+  color: green;
+}
+blockquote {
+  border-left: none !important;
+}
+
+.blockquote-footer {
+  color: #686868;
+}
+
+
+/*Artifacts*/
+.block {
+	background-color:rgba(0,0,0,0.2);
+  height:370px;
+  padding-left:12px;
+  padding-right:12px;
+}
+
+
+#sec2 .block {
+	background-color:rgba(0,0,0,0.4);
+  padding: .5rem 1rem;
+}
+
+
+.block-sm {
+    height:180px;
+}
+
+.btn-flat {
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+	  border-radius:0px;
+  	border-width:0;
+  	background-image:none;
+  	padding:16px;
+  	margin:0 auto;
+  	margin-top:15px;
+  	width:70%;
+    font-size:20pt;
+}
