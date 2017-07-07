@@ -33,6 +33,11 @@ p {
   background: linear-gradient(to bottom, rgba(255,0,174,0.05) 0%,rgba(255,0,174,0.3) 100%);
 }
 
+.navbar-toggler {
+  background-color: #fff;
+  z-index: 10000;
+}
+
 /*cover*/
 #cover {
   background: #222 url('img/sewing-machine.jpg') center center no-repeat;
@@ -73,6 +78,23 @@ p {
 
 .card-subtitle {
   color: #ff00ae;
+}
+
+.card {
+  /*float: left;*/
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  min-width: 250px;
+}
+
+.card > img {
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  font-size: 100%;
 }
 
 .btn-success-outline {
