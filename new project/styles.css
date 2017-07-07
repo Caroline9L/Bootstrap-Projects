@@ -29,6 +29,11 @@ h1 {
   color: #6E05F6;
 }
 
+.navbar-toggler {
+  background-color: #fff;
+  z-index: 10000;
+}
+
 /*cover*/
 #cover {
   background: #222 url('img/forest-path.jpg') center center no-repeat;
