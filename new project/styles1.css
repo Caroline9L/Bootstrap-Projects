@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-success-outline {
+  color: #686868;
+  border-color: #9305f6;
+  background: #f0f5f5;
+}
+
+a {
+  color: #9305f6;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+   color: #9305f6;
+}
+
+.fa {
+  color: #6E05F6;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  z-index: 10000;
+}
+
+/*cover*/
+#cover {
+  background: #222 url('img/forest-path.jpg') center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.display-3 {
+  font-family: 'Yellowtail', cursive;
+  color: #9305f6;
+}
+
+#cover-caption {
+  width: 100%;
+}
+
+.jumbotron .container {
+  max-width: 50rem;
+  background: rgba(0,0,0,0.8);
+  padding: 2rem;
+  color: #fff;
+}
+
+/*what I do*/
+
+#what-i-do {
+  padding: 2rem 0;
+}
+
+#what-i-do img {
+  padding: 1rem;
+}
+
+.card-subtitle {
+  color: #9305f6;
+}
+
+/*About*/
+
+#about {
+  background: linear-gradient(to bottom, rgba(74,4,165,0.05) 0%,rgba(74,4,165,0.4) 100%);
+  background-size: cover;
+}
+
+.about-text {
+  color: #000;
+  padding: 2rem;
+}
+
+#about img {
+  width: 25%;
+}
+
+/*Social*/
+
+#social {
+  padding: 2rem 0;
+}
+
+/*footer*/
+
+#footer-main {
+  background: #909090;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2.5rem 0;
+}
+
+blockquote {
+  border-left: none !important;
+}
+
+.blockquote-footer {
+  color: #fff;
+}
+
+.btn-success-outline {
+  color:#9305f6;
+}
