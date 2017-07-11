@@ -31,6 +31,11 @@ h1 {
   color: #496048;
 }
 
+.navbar {
+  background: rgba(0,0,0,0.3)0;
+}
+
+
 #headline {
   height: 60rem;
   display: flex;
