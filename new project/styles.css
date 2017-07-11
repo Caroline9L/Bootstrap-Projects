@@ -11,9 +11,10 @@ img {
   max-width: 100%;
 }
 
-.btn-outline-success {
-  color: #686868;
-  border-color: #686868;
+.btn-success-outline {
+  color: #9305f6;
+  border-color: #9305f6;
+  background: #e4e4e4;
 }
 
 a {
@@ -33,6 +34,12 @@ h1 {
   background-color: #fff;
   z-index: 10000;
 }
+
+.navbar {
+  background: rgba(166,166,166,0.6);
+  /*background-color: #a6a6a6;*/
+}
+
 
 /*cover*/
 #cover {
@@ -55,8 +62,8 @@ h1 {
 }
 
 .jumbotron .container {
-  max-width: 70rem;
-  background: rgba(0,0,0,0.8);
+  max-width: 50rem;
+  background: rgba(0,0,0,0.6);
   padding: 2rem;
   color: #fff;
 }
@@ -88,7 +95,7 @@ h1 {
 }
 
 #about img {
-  width: 25%;
+  width: 45%;
 }
 
 /*Social*/
@@ -97,10 +104,14 @@ h1 {
   padding: 2rem 0;
 }
 
+li img {
+  padding: 0.5rem;
+}
+
 /*footer*/
 
 #footer-main {
-  background: #909090;
+  background: #a6a6a6;
   color: #fff;
   font-size: 0.8rem;
   padding: 2.5rem 0;
@@ -114,6 +125,6 @@ blockquote {
   color: #fff;
 }
 
-.btn-success-outline {
+/*.btn-success-outline {
   color:#9305f6;
-}
+}*/
