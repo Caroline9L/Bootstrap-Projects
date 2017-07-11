@@ -12,9 +12,9 @@ img {
 }
 
 .btn-success-outline {
-  color: #686868;
+  color: #9305f6;
   border-color: #9305f6;
-  background: #f0f5f5;
+  background: #e4e4e4;
 }
 
 a {
@@ -28,6 +28,11 @@ h1 {
 
 .fa {
   color: #6E05F6;
+}
+
+.navbar {
+  background: rgba(166,166,166,0.6);
+  /*background-color: #a6a6a6;*/
 }
 
 .navbar-toggler {
@@ -98,6 +103,15 @@ h1 {
   padding: 2rem 0;
 }
 
+li img {
+  padding: 0.5rem;
+  max-height: 25rem;
+}
+
+.media-body {
+  padding: 1rem 0;
+}
+
 /*footer*/
 
 #footer-main {
@@ -113,8 +127,4 @@ blockquote {
 
 .blockquote-footer {
   color: #fff;
-}
-
-.btn-success-outline {
-  color:#9305f6;
 }
