@@ -18,7 +18,7 @@ img {
 }
 
 a {
-  color: #9305f6;
+  color: #440F99;
 }
 
 h1 {
@@ -78,20 +78,47 @@ li .nav-item {
   color: #9305f6;
 }
 
-/*About*/
+/*philosophy*/
 
-#about {
-  background: linear-gradient(to bottom, rgba(74,4,165,0.05) 0%,rgba(74,4,165,0.4) 100%);
+#philosophy {
+  background: url('img/deck.jpg') 100% 100% no-repeat;
   background-size: cover;
+  color: #fff;
+  height: 100%;
 }
 
-.about-text {
-  color: #000;
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+#philosophy-text .container {
+  color: #fff;
+  background: rgba(0,0,0,0.8);
   padding: 2rem;
+  max-width: 40rem;
 }
 
-#about img {
-  width: 25%;
+/*Alchemist*/
+
+#Alchemist {
+  background: url('img/stars.jpg') 100% 100% no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 80%;
+  /* text-align: center;
+     display: flex;
+ align-items: center;*/
+}
+
+#alchemist-text .container {
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  padding: 2rem;
+  max-width: 40rem;
 }
 
 /*Social*/
