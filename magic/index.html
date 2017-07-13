@@ -27,13 +27,13 @@
             <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/web.html">About</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/upcoming.html">?News</a>
+            <a class="nav-link" href="#">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/costumes.html">Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
         <a class="navbar-brand" href="/index.html" style="font-family: 'Condiment', cursive; color: #9305f6; font-size: 1.5rem;">The Modern Alchemist</a>
@@ -42,17 +42,17 @@
 
     <section id="headline" class="text-center align-items-center">
       <div class="container">
-        <h1 class="display-2" id="head" onwheel="showHeadline()" onMouseover="showHeadline()">Phil La Porta</h1>
-        <h2>Magic, Redefined</h2>
+        <h1 class="display-2" id="head" onwheel="showHeadline()">Phil La Porta</h1>
+        <h2>Magic, Redefined.</h2>
       </div>
     </section>
 
-    <section id="philosophy" class="d-flex align-items-center justify-content-center">
-      <div id="philosophy-text" class="hidden" onmouseover="showPhilosophy();">
+    <section id="philosophy" class="d-flex align-items-center justify-content-center" onmouseover="showDiv();">
+      <div id="philosophy-text" class="hide">
         <div class="container">
           <div class="col-sm-12">
             <div class="mx-auto">
-              <img src="img/spread.jpg" alt="code on screen" />
+              <img src="img/spread.jpg" alt="spread deck" />
               <h1>Phil's Philosophy of Magic</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
@@ -62,9 +62,10 @@
       </div>
     </section>
 
-  <section id="Alchemist" class="d-flex align-items-center justify-content-center">
+
+  <section id="Alchemist" onmouseover="myMove()">
     <div id="alchemist-text">
-      <div class="container">
+      <div class="container" id="animate">
         <div class="col-sm-12 mx-auto">
           <h1>Why "Modern Alchemist"?</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -74,56 +75,32 @@
     </div>
   </section>
 
+  <section id="social">
+    <div id="social-media">
+      <div class="container">
+          <div class="row d-flex justify-content-center">
+              <h1>Follow The Modern Alchemist on Social Media</h1>
+          </div>
+          <div class="row d-flex justify-content-center">
 
-    <section id="social">
-      <div class="section-content">
-        <div class="container">
-          <h1>Social Media</h1>
-          <p class="lead">Follow all of my various projects on social media.</p>
-
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="card-deck">
-                <div class="card">
-                  <div class="card-block">
-                    <h4 class="card-title">LinkedIn</h4>
-                  </div>
-                  <a href="https://www.linkedin.com/in/carolineslaporta/" class="text-center"><i class="fa fa-linkedin-square fa-5x"></i></a>
-                  <div class="card-block">
-                    <p class="card-text">
-                      Visit for more details about my professional projects and CV.
-                    </p>
-                  </div>
+              <a href="#">
+                <div class="hvr-float-shadow">
+                  <i class="fa fa-linkedin-square fa-5x"></i>
                 </div>
-
-                <div class="card">
-                  <div class="card-block">
-                    <h4 class="card-title">Instagram</h4>
-                  </div>
-                  <a href="https://www.instagram.com/caroline9l/" class="text-center"><i class="fa fa-instagram fa-5x"></i></a>
-                  <div class="card-block">
-                    <p class="card-text">
-                      Visit to see costume works in progress (and photos of my cat).
-                    </p>
-                  </div>
+                </a>
+              <a href="#">
+                <div class="hvr-float-shadow">
+                  <i class="fa fa-instagram fa-5x" id="icon"></i>
                 </div>
-
-                <div class="card">
-                  <div class="card-block">
-                    <h4 class="card-title">GitHub</h4>
-                  </div>
-                  <a href="https://github.com/Caroline9L/" class="text-center"><i class="fa fa-github fa-5x"></i></a>
-                  <div class="card-block">
-                    <p class="card-text">
-                      Visit to see some of the programming projects I'm currently working on.
-                    </p>
-                  </div>
+              </a>
+              <a href="#">
+                <div class="hvr-float-shadow">
+                  <i class="fa fa-twitter-square fa-5x" id="icon"></i>
                 </div>
-
-              </div>
+              </a>
             </div>
           </div>
-      </div>
+        </div>
     </section>
 
     <footer id="footer-main">
@@ -152,18 +129,16 @@
               <h6 style="font-family: 'Condiment', cursive; color: #440F99">Last Words</h6>
               <blockquote class="blockquote">
               <p class="mb-0">"Thanks. See you out there." </p>
-                <footer class="blockquote-footer">Phil La Porta</footer>
+                <footer class="blockquote-footer">Phil</footer>
               </blockquote>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/magic.js"></script>
-    <!--<script></script>-->
   </body>
 </html>
