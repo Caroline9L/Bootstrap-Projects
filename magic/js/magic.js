@@ -5,9 +5,24 @@ window.onscroll =  function showHeadline() {
     }
 }
 
-function showPhilosophy() {
-  document.getElementById("philosophy-text").className = "visible";
+function showDiv() {
+  var showIt = document.getElementById("philosophy-text").classList;
+  if (showIt.contains("hide")) {
+    showIt.remove("hide");
+ }
 }
-window.onmouseover = function() {
-  document.getElementById("philosophy-text").addEventListener( 'onmouseover', showPhilosophy);
- }
+
+function myMove() {
+    var elem = document.getElementById("animate");
+    var pos = 0;
+    var id = setInterval(frame, 6);
+    function frame() {
+        if (pos == 350) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + 'px';
+            elem.style.left = pos + 'px';
+        }
+    }
+}
