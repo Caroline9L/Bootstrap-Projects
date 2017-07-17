@@ -1,9 +1,71 @@
 html, body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
 }
 
 img {
   max-width: 100%;
+}
+
+.btn-outline-success {
+  color: #926CC3;
+  border-color: #926CC3;
+  background: #e4e4e4;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  border-color: #926CC3;
+  background: #926CC3;
+}
+
+.disabled {
+  color: #686868;
+  border-color: #686868;
+}
+
+a {
+  color: #9305f6;
+}
+
+a:hover {
+  color: #926CC3;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+   color: #9305f6;
+}
+
+.fa {
+  color: #6E05F6;
+}
+
+.fa:hover {
+  color: #926CC3;
+}
+
+hr {
+  margin: 0 20%;
+}
+
+.navbar {
+  background: rgba(166,166,166,0.6);
+  /*background-color: #a6a6a6;*/
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  z-index: 10000;
+}
+
+.display-1 {
+  font-family: 'Yellowtail', cursive;
+  color: #ff00ae;
 }
 
 /*cover*/
@@ -15,6 +77,7 @@ img {
   text-align: center;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 
 #cover-caption {
@@ -22,28 +85,23 @@ img {
 }
 
 .jumbotron .container {
-  max-width: 60rem;
-  background: rgba(0,0,0,0.5);
+  max-width: 50rem;
+  background: rgba(0,0,0,0.8);
   padding: 2rem;
   color: #fff;
 }
 
-#carousel {
-  padding: 3rem 4rem;
+/*headline*/
+
+#headline {
+  margin-bottom: 2rem;
+  padding: 2rem 0;
 }
 
-.carousel-item img{
-  max-height: 10%;
-}
+/*private*/
 
-#carousel2 {
-  padding: 3rem 4rem;
-  background-color: #f5f5f5;
-  background-size: cover;
-}
-
-#carousel2 .card img {
-  padding: 1rem;
+#private {
+  margin: 5rem 0;
 }
 
 .modal-dialog {
@@ -54,37 +112,65 @@ img {
   margin-bottom:6px;
 }
 
-/*.section-content {
-  padding: 5rem 0;
-}*/
-
-#what-i-do {
-  padding: 2rem 0;
+#private p {
+  font-size: 22px;
 }
 
-#what-i-do img {
-  padding: 1rem;
+/*theatrical*/
+
+#theatrical {
+  margin: 5rem 0;
 }
 
-#about {
-  height: 60%;
-  display: flex;
-  align-items: center;
+.modal-dialog {
+  width:50rem;
 }
 
-.about-text {
-  /*background: rgba(255,255,255,0.4);*/
-  color: #6868668;
-  padding: 2rem;
+.thumbnail {
+  margin-bottom:6px;
 }
+
+#theatrical p {
+  font-size: 22px;
+}
+
+/*design*/
+
+#design {
+  margin-top: 5rem;
+}
+
+.modal-dialog {
+  width:50rem;
+}
+
+.thumbnail {
+  margin-bottom:6px;
+}
+
+#design p {
+  font-size: 22px;
+}
+
+/*Social*/
 
 #social {
-  padding: 2rem 0;
+  padding: 10rem 0 2rem 0;
 }
+
+/*Footer*/
 
 #footer-main {
   background: #222;
   color: #fff;
   font-size: 0.8rem;
   padding: 2.5rem 0;
+}
+
+blockquote {
+  border-left: none !important;
+}
+
+.blockquote-footer {
+  color: #fff;
 }
