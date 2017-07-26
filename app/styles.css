@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-dl {
+  color: #000;
+  border-color: #A47709;
+  background: #A47709;
+  font-weight: bold;
+}
+
+.btn-dl:hover {
+  color: #000;
+  border-color: #bf9f52;
+  background: #bf9f52;
+  font-weight: bold;
+}
+
+a {
+  color: #A47709;
+}
+
+a:hover {
+  color: #bf9f52;
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-family: 'Rubik', sans-serif;
+   color: #A47709;
+}
+
+.display-3 {
+  font-family: 'Rubik', sans-serif;
+  color: #A47709;
+}
+
+.fa {
+  color: #A47709;
+}
+
+.shadow {
+  text-shadow: 2px 2px 3px #000;
+}
+
+hr {
+  height: 4px;
+  color: #5b5b5b;
+  width: 75%;
+}
+
+/*cover*/
+#hero {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/coins2.jpg') center center no-repeat;
+  background-size: cover;
+  background-position:center top;
+  color: #fff;
+  height: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #A47709;
+}
+
+#hero-caption {
+  width: 100%;
+}
+
+/*features*/
+
+#features {
+  padding: 2rem 0;
+}
+
+#feature-image img {
+  padding: 1rem;
+  max-height: 600px;
+  margin: auto;
+}
+
+#features-text {
+  padding: 0 3rem
+}
+
+#features-text h3 {
+  margin-top: 4rem;
+}
+
+/*Screencaps*/
+
+#screencaps {
+  width: 100%;
+}
+
+#screencaps img {
+  max-width: 30%;
+  margin: 0 1%;
+}
+
+/*Social*/
+
+#social {
+  padding: 2rem 0;
+}
+
+li img {
+  padding: 0.5rem;
+  max-height: 25rem;
+}
+
+.media-body {
+  padding: 1rem 0;
+}
+
+/*footer*/
+
+#footer-main {
+  background: #222;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2.5rem 0;
+  border-top: 5px solid #A47709;
+
+}
