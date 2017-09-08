@@ -9,6 +9,7 @@ body {
 
 #overlay {
 	background-color:rgba(0,0,0,0.6);
+	/* padding-right: 10%; */
 }
 
 p {
@@ -48,7 +49,7 @@ h1 {
 }
 
 .solid {
-  background-color: #686868;
+  background-color: #424242;
   padding: 20rem 0;
 }
 
@@ -57,17 +58,16 @@ h1 {
 #hero {
 	margin: 0 auto;
 	padding: 0 2%;
-
 }
 
 #headline {
   height: 60rem;
-  padding: 20% 0 40% 0;
+  padding-top: 450px;
+  height: 1150px;
 }
 
 #hero p.lead {
 	text-shadow: 5px 5px 7px #000;
-
 }
 
 /* About */
@@ -114,6 +114,11 @@ h1 {
   color: #ffffff;
 }
 
+#samples li {
+	margin-bottom: 2rem;
+}
+
+
 /* Another */
 #another p{
 	padding: 0 2rem;
@@ -144,7 +149,7 @@ h1 {
   font-size: 0.8rem;
   padding-top: 1rem;
   text-align: center;
-  background: #686868;
+  background: #000000;
 }
 
 #footer-main.container {
@@ -160,5 +165,77 @@ h1 {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 1250px) {
+	#headline {
+		height: 1200px;
+	}
+	#hero h1 {
+		font-size: 54px;
+	}
+}
 
+@media only screen and (max-width: 1024px) {
+	#headline {
+		height: 1250px;
+	}
+
+	#hero.container-fluid {
+		text-align: center !important;
+	}
+
+	.about img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.about p {
+		padding: 0 1rem;
+	}
+
+	.about a {
+		padding-left: 1.5rem;
+	}
+
+	#samples audio {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#samples a {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	#samples p {
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+  	#headline {
+		height: 800px;
+		padding-top: 200px;
+	}
+
+	
+	p {
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	.contactInfo {
+		display: block;
+		min-width: 250px;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2rem;
+	}
+
+}
 
