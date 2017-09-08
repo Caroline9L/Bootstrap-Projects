@@ -1,48 +1,242 @@
-html, body {
-  height: 100%;
+body {
+	background: url('img/vosetup.jpg') no-repeat center center fixed;
+  	background-size: cover;
+	color:#fff;
+  	background-color:#333;
+ 	 font-family: 'Lato', sans-serif;
+  /* align-items: center; */
 }
 
-img {
-  max-width: 100%;
+#overlay {
+	background-color:rgba(0,0,0,0.6);
+	/* padding-right: 10%; */
 }
 
-/*cover*/
-#cover {
-  background: #222 url('img/stars.jpg') center center no-repeat;
-  background-size: cover;
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.btn-success {
+  background-color: #496048;
+  border-color: #496048;
+}
+
+a {
+   color: #ffffff;
+}
+
+a:hover {
+  color: #93CCEF;
+}
+
+h1 {
+  font-family: 'Quattrocento', serif;
+   color: #ffffff;
+   text-shadow: 5px 5px 7px #000;
+}
+
+.fa {
+   color: #ffffff;
+}
+
+.fa:hover {
+   color: #93CCEF;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.solid {
+  background-color: #424242;
+  padding: 20rem 0;
+}
+
+/* Headline */
+
+#hero {
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+#headline {
+  height: 60rem;
+  padding-top: 450px;
+  height: 1150px;
+}
+
+#hero p.lead {
+	text-shadow: 5px 5px 7px #000;
+}
+
+/* About */
+
+.about h1 {
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.about img {
+	max-height: 300px;
+	padding: 2%;
+}
+
+.about a{
+	font-size: 1.25rem;
+	color: #93CCEF;
+}
+
+.about a{
+	color: #ffffff;
+}
+
+/*Audio Samples*/
+
+#samples {
+  margin: 20rem 0;
   color: #fff;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
 }
 
-#cover-caption {
+#samples .container{
   width: 100%;
+  margin: 0 auto;
+  padding: 2rem 4rem;
 }
 
-.carousel-item img{
-  min-width: 100%;
+#samples a{
+  color: #93CCEF;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
 }
 
-.section-content {
-  padding: 5rem 0;
+#samples a:hover{
+  color: #ffffff;
 }
 
-#about {
-  background: url('img/girlincar.jpg') center center no-repeat;
-  background-size: cover;
+#samples li {
+	margin-bottom: 2rem;
 }
 
-.about-text {
-  background: rgba(0,0,0,0.8);
-  color: #fff;
+
+/* Another */
+#another p{
+	padding: 0 2rem;
+}
+
+/*contact*/
+
+#contact {
+  padding: 25rem 0;
+  margin: 25rem 0 25rem 0;
   padding: 2rem;
+  text-align: center;
 }
+
+#contact a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+#contact a:hover {
+  color: #93CCEF;
+  font-size: 1.5rem;
+}
+
+/*footer*/
 
 #footer-main {
-  background: #222;
-  color: #fff;
   font-size: 0.8rem;
-  padding: 2.5rem 0;
+  padding-top: 1rem;
+  text-align: center;
+  background: #000000;
 }
+
+#footer-main.container {
+  text-align: center;
+}
+
+#footer a {
+  color: #93CCEF;
+}
+
+
+#footer a:hover {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1250px) {
+	#headline {
+		height: 1200px;
+	}
+	#hero h1 {
+		font-size: 54px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#headline {
+		height: 1250px;
+	}
+
+	#hero.container-fluid {
+		text-align: center !important;
+	}
+
+	.about img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.about p {
+		padding: 0 1rem;
+	}
+
+	.about a {
+		padding-left: 1.5rem;
+	}
+
+	#samples audio {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#samples a {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	#samples p {
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+  	#headline {
+		height: 800px;
+		padding-top: 200px;
+
+	}
+
+	
+	p {
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	.contactInfo {
+		display: block;
+		min-width: 250px;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2rem;
+	}
+
+}
+
