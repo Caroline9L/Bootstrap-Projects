@@ -1,10 +1,10 @@
-body {
-	background: url('img/aurora.jpg') no-repeat center center fixed;
-  background-size: cover;
-	color:#fff;
-  background-color:#333;
+html, body {
+  height: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
-  align-items: center;
+  background: url('img/city.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color:#333;
+  color:#fff;
 }
 
 p {
@@ -13,26 +13,53 @@ p {
 }
 
 .btn-success {
-  background-color: #496048;
-  border-color: #496048;
+  background-color: #BA6A04;
+  border-color: #BA6A04;
+}
+
+.btn-success:hover {
+  background-color: #686868;
+  border-color:#686868;
+}
+
+.btn-outline-success {
+  border-color: #BA6A04;
+  color: #BA6A04
+}
+
+.btn-outline-success:hover {
+  border-color:#686868;
+  background-color: transparent;
 }
 
 a {
-  color: #496048;
+  color: #BA6A04;
 }
 
-h1 {
+a:hover {
+  color: #fff;
+}
+
+h1, h6 {
   font-family: 'Special Elite', cursive;
-   color: #ffffff;
-   text-shadow: 5px 5px 7px #000;
+  color: #ffffff;
+  text-shadow: 5px 5px 7px #000;
 }
 
 .fa {
-  color: #496048;
+  color: #fff;
+}
+
+.fa:hover {
+  color: #BA6A04;
 }
 
 .navbar {
-  background: rgba(0,0,0,0.3)0;
+  background: rgba(0,0,0,0.3);
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
 }
 
 
@@ -42,9 +69,8 @@ h1 {
 }
 
 .jumbotron {
-  padding-top: 30rem;
-  padding-bottom: 30rem;
-  margin-bottom: 0;
+  margin-top: 30rem;
+  margin-bottom: 30rem;
   background: transparent;
 }
 
@@ -75,9 +101,8 @@ h1 {
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
-  background: rgba(0,0,0,0.6);
+  background: transparent;
   min-width: 200px;
-  /*max-width: 30%;*/
 }
 
 .card > img {
@@ -89,6 +114,7 @@ h1 {
 .card-text {
   color: #fff;
   font-size: 100%;
+  font-weight: bold;
 }
 
 /*Episodes*/
@@ -113,10 +139,6 @@ h1 {
   max-height: 10rem;
 }
 
-#episodes a{
-  color: lightgreen;
-}
-
 .media-body {
   font-size: 110%;
 }
@@ -128,9 +150,6 @@ h1 {
   margin: 5rem 0;
 }
 
-#social a {
-  color: lightgreen;
-}
 
 /*footer*/
 
@@ -138,14 +157,15 @@ h1 {
   background: #000;
   color: #686868;
   font-size: 0.8rem;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
 }
 
-#footer-main a{
-  color: green;
-}
 blockquote {
   border-left: none !important;
+}
+
+#footer-main h6{
+  color: #686868;
 }
 
 .blockquote-footer {
@@ -153,33 +173,3 @@ blockquote {
 }
 
 
-/*Artifacts*/
-.block {
-	background-color:rgba(0,0,0,0.2);
-  height:370px;
-  padding-left:12px;
-  padding-right:12px;
-}
-
-
-#sec2 .block {
-	background-color:rgba(0,0,0,0.4);
-  padding: .5rem 1rem;
-}
-
-
-.block-sm {
-    height:180px;
-}
-
-.btn-flat {
-  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
-	  border-radius:0px;
-  	border-width:0;
-  	background-image:none;
-  	padding:16px;
-  	margin:0 auto;
-  	margin-top:15px;
-  	width:70%;
-    font-size:20pt;
-}

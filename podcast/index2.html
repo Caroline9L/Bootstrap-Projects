@@ -1,263 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Special+Elite" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles2.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  </head>
-  <body>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Special+Elite" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles2.css">
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse navbar-full fixed-top" id="id-main">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+</head>
+
+<body>
+  <div class="overlay">
+
+  <nav class="navbar navbar-toggleable-md navbar-full fixed-top" id="id-main">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="/index.html" style="font-family: 'Special Elite', cursive;
+    <a class="navbar-brand" href="/index.html" style="font-family: 'Special Elite', cursive;
        color: #ffffff; font-size: 1.5rem;">The Whiparound</a>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Episodes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Follow Us</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Episodes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Follow Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <section id="headline" class="text-center align-items-center">
+    <div class="container jumbotron">
+      <h1 class="jumbotron-heading display-4">The Whiparound</h1>
+      <p class="lead">Something about the show that makes people want to listen to it, maybe a generality about the hosts and/or the subject
+        matter.<br /><br />Subscribe to our mailing list for updates.</p>
+      <div>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain" class="form-inline justify-content-center">
+          <div class="form-group">
+            <label class="sr-only">Name</label>
+            <input type="text" class="form-control form-control-md" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <label class="sr-only">Email</label>
+            <input type="text" class="form-control form-control-md" placeholder="email@example.com" />
+          </div>
+          <button type="submit" class="btn btn-success">Join our list</button>
         </form>
       </div>
-    </nav>
 
-    <section id="headline" class="text-center align-items-center">
-      <div class="container jumbotron">
-        <h1 class="jumbotron-heading display-4">The Whiparound</h1>
-        <p class="lead">Something about the show that makes people want to listen to it, maybe a generality about the hosts and/or the subject matter.<br /><br />Subscribe to our mailing list for updates.</p>
-        <div>
-          <form action="mailto:someone@example.com" method="post" enctype="text/plain" class="form-inline justify-content-center">
-            <div class="form-group">
-              <label class="sr-only">Name</label>
-              <input type="text" class="form-control form-control-md" placeholder="Your Name"/>
-            </div>
-            <div class="form-group">
-              <label class="sr-only">Email</label>
-              <input type="text" class="form-control form-control-md" placeholder="email@example.com"/>
-            </div>
-            <button type="submit" class="btn btn-success">Join our list</button>
-          </form>
-        </div>
+    </div>
+  </section>
 
-      </div>
-    </section>
+  <div class="about">
+    <div class="container">
+      <h1>Meet our Hosts</h1>
 
-    <div class="about">
-      <div class="container">
-        <h1>Meet our Hosts</h1>
-
-        <div class="row">
-          <div class="card-deck">
+      <div class="row">
+        <div class="card-deck">
           <div class="card">
             <h3 class="card-title font-weight-bold">Shaun</h3>
             <img src="img/me.jpg" class="img-fluid img-thumbnail rounded-circle mx-auto d-block" alt="playing guitar">
-            <h4 class="card-subtitle">His Job</h4>
-            <p style="padding: 1rem 1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <h4 class="card-subtitle">The Skeptic</h4>
+            <p style="padding: 1rem 1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. </p>
           </div>
           <div class="card">
             <h3 class="card-title font-weight-bold">Phil</h3>
             <img src="img/me.jpg" class="img-fluid img-thumbnail rounded-circle mx-auto d-block" alt="playing guitar">
-            <h4 class="card-subtitle">His Job</h4>
-            <p style="padding: 1rem 1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <h4 class="card-subtitle">The Scientist</h4>
+            <p style="padding: 1rem 1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. </p>
           </div>
           <div class="card">
             <h3 class="card-title font-weight-bold">Mike</h3>
             <img src="img/me.jpg" class="img-fluid img-thumbnail rounded-circle mx-auto d-block" alt="playing guitar">
-            <h4 class="card-subtitle">His Job</h4>
-            <p style="padding: 1rem 1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          </div>
+            <h4 class="card-subtitle">The Angry Guy</h4>
+            <p style="padding: 1rem 1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. </p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <section id="episodes">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">Latest Episodes</h1>
-            <p class="lead text-center">
-              For older episodes, <a href="#">click here</a>.
-            </p>
-            <div class="row">
-              <div class="col-md-6 mr-auto d-block">
-                <ul class="list-unstyled">
-                  <li class="media">
-                    <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                      <h4 class="mt-0 mb-1">*1/1/2017 Episode Title</h4>
-                      Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<br />
-                      Today's Guest: Fusce Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </li>
-                  <li class="media my-4">
-                    <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                      <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
-                      Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<br />
-                      Today's Guest: Fusce Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </li>
-                  <li class="media">
-                    <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                      <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
-                      Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<br />
-                      Today's Guest: Fusce Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-md-6 ml-auto d-block">
-                <ul class="list-unstyled">
-                  <li class="media">
-                    <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                      <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
-                      Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<br />
-                      Today's Guest: Fusce Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </li>
-                  <li class="media my-4">
-                    <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                      <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
-                      Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<br />
-                      Today's Guest: Fusce Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </li>
-                  <li class="media">
-                    <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                      <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
-                      Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<br />
-                      Today's Guest: Fusce Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </li>
-                </ul>
-              </div>
+  <section id="episodes">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Latest Episodes</h1>
+          <p class="lead text-center">
+            For older episodes, <a href="#" class="font-weight-bold">click here</a>.
+          </p>
+          <div class="row">
+            <div class="col-md-6 mr-auto d-block">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h4 class="mt-0 mb-1">*1/1/2017 Episode Title</h4>
+                    Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                    odio, vestibulum in vulputate at, tempus viverra turpis.<br /> Today's Guest: Fusce
+                    Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
+                    Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                    odio, vestibulum in vulputate at, tempus viverra turpis.<br /> Today's Guest: Fusce
+                    Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media">
+                  <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
+                    Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                    odio, vestibulum in vulputate at, tempus viverra turpis.<br /> Today's Guest: Fusce
+                    Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+              </ul>
             </div>
+
+            <div class="col-md-6 ml-auto d-block">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
+                    Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                    odio, vestibulum in vulputate at, tempus viverra turpis.<br /> Today's Guest: Fusce
+                    Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
+                    Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                    odio, vestibulum in vulputate at, tempus viverra turpis.<br /> Today's Guest: Fusce
+                    Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media">
+                  <img class="d-flex mr-3 thumbnail" src="img/sky.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h4 class="mt-0 mb-1">1/1/2017 Episode Title</h4>
+                    Show Description: Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                    odio, vestibulum in vulputate at, tempus viverra turpis.<br /> Today's Guest: Fusce
+                    Condimentum, nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="text-right">
             <button class="btn btn-success">Older Episodes</button>
           </div>
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="social">
-      <div class="section-content">
-        <div class="container">
-          <h1>Social Media</h1>
-          <p class="lead" style="color: #fff;">Follow us to keep up on the latest updates, or <a href="mailto:">join our mailing list</a> to receive the latest updates in your inbox.</p>
+  <section id="social">
+    <div class="section-content">
+      <div class="container">
+        <h1>Social Media</h1>
+        <p class="lead">Follow us to keep up on the latest updates, or <a href="mailto:">join our mailing list</a> to receive the latest
+          updates in your inbox.</p>
 
-          <div class="row">
-            <div class="container">
+        <div class="row">
+          <div class="container">
             <!--  <div class="row">-->
-                <div class="card-deck">
-                <div class="card">
-                  <div class="card-block">
-                    <h4 class="card-title">Twitter</h4>
-                  </div>
-                  <a href="#" class="text-center"><i class="fa fa-twitter-square fa-5x"></i></a>
-                  <div class="card-block">
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">Twitter</h4>
                 </div>
-
-                <div class="card">
-                  <div class="card-block">
-                    <h4 class="card-title">Facebook</h4>
-                  </div>
-                  <a href="#" class="text-center"><i class="fa fa-facebook-square fa-5x"></i></a>
-                  <div class="card-block">
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
+                <a href="#" class="text-center"><i class="fa fa-twitter-square fa-5x"></i></a>
+                <div class="card-block">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
                 </div>
-
-                <div class="card">
-                  <div class="card-block">
-                    <h4 class="card-title">Instagram</h4>
-                  </div>
-                  <a href="#" class="text-center"><i class="fa fa-instagram fa-5x"></i></a>
-                  <div class="card-block">
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                </div>
-
               </div>
+
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">Facebook</h4>
+                </div>
+                <a href="#" class="text-center"><i class="fa fa-facebook-square fa-5x"></i></a>
+                <div class="card-block">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">Instagram</h4>
+                </div>
+                <a href="#" class="text-center"><i class="fa fa-instagram fa-5x"></i></a>
+                <div class="card-block">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+
             </div>
           </div>
-      </div>
-    </section>
-
-    <footer id="footer-main">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <p>&copy; 2017</p>
-            <p>coded by <a href="">La Porta Web Services</a></p>
-          </div>
-          <div class="col-sm-3">
-            <ul class="list-unstyled">
-              <li><a href="">home</a></li>
-              <li><a href="">Episodes</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Follow Us</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-              <ul class="list-unstyled">
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Google+</a></li>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-              </ul>
-          </div>
-          <div class="col-sm-3">
-              <h6 style="color: #496048; font-family: 'Yellowtail', cursive;">Last Words</h6>
-              <blockquote class="blockquote">
-              <p class="mb-0">Something pithy that Shaun will write. </p>
-                <footer class="blockquote-footer">Shaun</footer>
-              </blockquote>
-          </div>
         </div>
       </div>
-    </footer>
+  </section>
 
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/parallax.js"></script>
+  <footer id="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <p>&copy; 2017</p>
+          <p>coded by <a href="">La Porta Web Services</a></p>
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-unstyled">
+            <li><a href="">home</a></li>
+            <li><a href="">Episodes</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Follow Us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-unstyled">
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Google+</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h6>Last Words</h6>
+          <blockquote class="blockquote">
+            <p class="mb-0">Something pithy that Shaun will write. </p>
+            <footer class="blockquote-footer">Shaun</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/parallax.js"></script>
 
 </body>
+
 </html>
