@@ -64,7 +64,7 @@ hr {
 
 /* Menu */
 .navbar {
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.8);
 }
 
 .nav-link {
@@ -78,7 +78,7 @@ hr {
 
 /* dropdown */
 .dropdown-menu {
-  background: transparent;
+  background: rgba(0,0,0,0.8);
 }
 a.dropdown-item {
   color: #BA6A04;
@@ -225,7 +225,7 @@ a.dropdown-item:hover {
   background: #000;
   color: #686868;
   font-size: 0.8rem;
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
 }
 
 blockquote {
