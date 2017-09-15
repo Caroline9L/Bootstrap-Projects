@@ -1,6 +1,9 @@
 html, body {
   height: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
+  	background: url('img/aurora.jpg') no-repeat center center fixed;
+  background-size: cover;
+
 }
 
 p {
@@ -37,10 +40,10 @@ h1 {
   padding-bottom: 20rem;
   margin-bottom: 0;
   background-color: #686868;
-  background-image: url('img/aurora.jpg');
+  /* background-image: url('img/aurora.jpg');
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .jumbotron-heading {
