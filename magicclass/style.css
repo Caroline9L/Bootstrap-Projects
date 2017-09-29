@@ -1,0 +1,117 @@
+html, body {
+  height: 100%;
+  font-family: 'Robato', sans-serif;
+  background-color: #686868;
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+a {
+  color: #56375C;
+}
+
+a:hover {
+  color: #711683;
+  text-decoration: none;
+}
+
+
+h1, h2 {
+  font-family: 'Lora', serif;
+  color: black;
+}
+
+.display-4{
+  color: black;
+   text-shadow: 3px 0px 6px #aaa;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #56375C;
+  border-color: #56375C;
+}
+
+.btn-success:hover {
+  background-color: #81538A;
+  border-color: #81538A;
+
+}
+
+/*cover*/
+#cover {
+  background: #222 url('img/bg.jpeg') center center no-repeat;
+  background-size: cover;
+  /* color: #fff; */
+  height: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #56375C;
+}
+
+#cover-caption {
+  width: 100%;
+}
+
+#cover .container {
+  /* max-width: 45rem; */
+  /* background: rgba(0,0,0,0.6); */
+  padding: 2rem;
+  color: #fff;
+}
+
+/*theClass*/
+
+#theClass {
+  padding: 6rem 0;
+}
+
+#theClass .media-body {
+  color: #000;
+  padding: 3rem;
+}
+
+#theClass img {
+  width: 35%;
+}
+
+/*theTeacher*/
+
+#theTeacher {
+  padding: 6rem 0;
+}
+
+#theTeacher img {
+  width: 35%;
+}
+
+/*Footer*/
+
+#footer-main {
+  border-top: 5px solid #56375C;
+  background: #222;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2.5rem 0;
+}
+
+#footer-main a {
+  color: #81538A;
+}
+
+#footer-main a:hover {
+  color: #AE73B9;
+  text-decoration: none;
+}
+
+
+blockquote {
+  border-left: none !important;
+}
+
+.blockquote-footer {
+  color: #fff;
+}
