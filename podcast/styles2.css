@@ -148,7 +148,7 @@ a.dropdown-item:hover {
 .card-text {
   color: #fff;
   font-size: 100%;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* About Us Page */
