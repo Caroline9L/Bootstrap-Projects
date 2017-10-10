@@ -91,6 +91,12 @@ h1 {
   color: #fff;
 }
 
+/* projects */
+
+#projects {
+  padding-bottom: 4rem;
+}
+
 /*what I do*/
 
 #what-i-do {
