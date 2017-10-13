@@ -14,11 +14,13 @@
   <body>
 
     <nav class="navbar navbar-toggleable-md navbar-full" id="id-main">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler navbar-toggler-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span>Menu</span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
@@ -26,14 +28,14 @@
           <li class="nav-item">
             <a class="nav-link" href="/web.html">Web Development</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="/upcoming.html">Upcoming</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="/costumes.html">Costumes</a>
           </li>
         </ul>
-        <a class="navbar-brand" href="/index.html" style="font-family: 'Yellowtail', cursive; color: #9305f6; font-size: 1.5rem;">Caroline La Porta</a>
+        <a class="navbar-brand" href="/index.html">Caroline La Porta</a>
       </div>
     </nav>
 
@@ -42,25 +44,59 @@
       <div id="cover-caption">
         <div class="container-fluid">
           <div class="col-sm-12 col-sm-offset-1">
-            <h1 class="display-3">Caroline La Porta</h1>
+            <h1 class="display-3">La Porta Web Services</h1>
             <p class="lead">
-              A little something for everyone.  Read on for more.
+              Top to Bottom Web Presence Solutions
             </p>
           </div>
         </div>
       </div>
     </section>
 
-<!-- Make responsive -- text full-width below images under 768 -->
+  <section id="services">
+    <div class="container">
+      <div class="col-sm-12">
+        <h1 class="text-center">Services We Provide</h1>
+        <div class="row">
+          <div class="col-md-12 about-text">
+            <div class="media">
+              <!-- <img class="d-flex align-self-center mr-3 img-fluid img-thumbnail rounded-img" src="img/profile.jpg" alt="Generic placeholder image"> -->
+              <div class="media-body">
+                <p>La Porta Web Services specializes in web design and construction -- see below for examples of completed sites.  We work with you from idea to finished product to ensure your site meets your specifications, looks great on any screen, and is optimized for Google search.  Once your site is deployed, we can hand it off to you, or be retained for routine maintenence, updates, security, and other needs.
+                  <br><br>
+                  We don't stop at web sites though! La Porta Web Services also handles social media, from setup of your desired platform to regular updates of the pages, as well as podcast hosting -- setting up your account, posting episodes, and keeping things up to date on iTunes and GooglePlay -- all you need to do is record and provide show notes and imagery!
+                </p>
+                  <div class="row align-content-center" style="padding: 2rem;" id="">
+                    <div class="col-sm-12 col-md-6 contactInfo"><a href="mailto:carolineslaporta@gmail.com"><i class="fa fa-envelope-o fa-lg"></i>&nbsp;</nbsp>Email for Quote</a></div>
+                    <div class="col-sm-12 col-md-6 contactInfo">
+                      <div class="row">
+                        <div class="col"><a href="www.facebook.com"><i class="fa fa-github-square fa-2x"></i></a></div>
+                        <div class="col"><a href="www.twitter.com"><i class="fa fa-facebook-square fa-2x"></i></a></div>
+                        <div class="col"><a href="www.linkedin.com"><i class="fa fa-linkedin-square fa-2x"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
     <section id="projects">
       <div class="container">
-        <h1 class="text-center">Caroline's Web Development Projects</h1>
-        <hr />
+        <h1 class="text-center display-4">Recent Projects</h1>
         <div class="row">
           <div class="col-md-12 mx-auto d-block">
             <ul class="list-unstyled">
+             
+              <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/df.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
               <li class="media">
-                <img class="d-flex mr-3 thumbnail col-md-6" src="img/df.jpg" alt="Digital Forge Project Image" style="width: 50%;">
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/df.jpg" alt="Digital Forge Project Image" style="width: 50%;">
                 <div class="media-body col-md-6">
                   <h4 class="mt-0 mb-1">Digital Forge Cyber Assurance Group</h4>
                   Project Date: 2017<br /><br />
@@ -68,11 +104,11 @@
                   <a class="btn btn-success-outline" href="https://dfcyber.com" role="button">Visit</a>
                 </div>
               </li>
-
               <hr />
 
+              <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/magicClass.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
             <li class="media">
-              <img class="d-flex mr-3 thumbnail col-md-6" src="img/magicClass.jpg" alt="Podcast Project Image" style="width: 50%;">
+              <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/magicClass.jpg" alt="Podcast Project Image" style="width: 50%;">
               <div class="media-body col-md-6">
                 <h4 class="mt-0 mb-1">Class Information Site</h4>
                 Project Date: 2017<br /><br /> Project Description: Brochure site designed as a tie-in between a performance and a potential college class offering. Developed from scratch using Boostrap framework.<br /><br />
@@ -80,31 +116,33 @@
               </div>
             </li>
             <hr />
-              
+
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/podcast1.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
             <li class="media">
-              <img class="d-flex mr-3 thumbnail col-md-6" src="img/podcast1.jpg" alt="Podcast Project Image" style="width: 50%;">
+              <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/podcast1.jpg" alt="Podcast Project Image" style="width: 50%;">
               <div class="media-body col-md-6">
                 <h4 class="mt-0 mb-1">The Whiparound Podcast</h4>
-                Project Date: 2017<br /><br /> Project Description: Website and social media support for new podcast, "The
-                Whiparound." Developed from scratch using Boostrap framework.<br /><br />
+                Project Date: 2017<br /><br /> Project Description: Website and social media support for new podcast, "The Whiparound." Developed from scratch using Boostrap framework. Also provide hosting and social media support.<br /><br />
                 <a class="btn btn-success-outline" href="http://TheWhiparoundPodcast.com" role="button">Visit</a>
               </div>
             </li>
             <hr />
 
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/xrd.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
               <li class="media">
-                <img class="d-flex mr-3 thumbnail col-md-6" src="img/xrd.jpg" alt="Crossroads Project Image" style="width: 50%;">
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/xrd.jpg" alt="Crossroads Project Image" style="width: 50%;">
                 <div class="media-body col-md-6">
                   <h4 class="mt-0 mb-1">Crossroads Technologies, Inc.</h4>
                   <p>Project Date: 2017<br /><br />
                   Project Description: Developed website for Crossroads Technologies using Joomla and a heavily altered template, troubleshooting after handoff to Marketing Department and as needed post-launch.<br /><br />
                   <a class="btn btn-success-outline" href="https://www.crossroadstech.net" role="button">Visit</a></p>
                 </div>
-              </li>
+             </li>
             <hr />
 
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/Hayes.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
             <li class="media">
-              <img class="d-flex mr-3 thumbnail col-md-6" src="img/Hayes.jpg" alt="Voiceover Project Image" style="width: 50%;">
+              <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/Hayes.jpg" alt="Voiceover Project Image" style="width: 50%;">
               <div class="media-body col-md-6">
                 <h4 class="mt-0 mb-1">Voiced by Shaun Hayes</h4>
                 Project Date: 2017(Launch Pending)<br /><br /> Project Description: Voiceover brochure/portfolio for new artist. Developed from scratch using Boostrap framework.<br /><br />
@@ -113,9 +151,9 @@
             </li>
             <hr />
 
-
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/ngRecipe.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
               <li class="media">
-                <img class="d-flex mr-3 thumbnail col-md-6" src="img/ngRecipe.jpg" alt="Recipe App Project Image" style="width: 50%;">
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/ngRecipe.jpg" alt="Recipe App Project Image" style="width: 50%;">
                 <div class="media-body col-md-6">
                   <h4 class="mt-0 mb-1">Recipe Book Webapp</h4>
                   Project Date: 2017 (work in progress)<br /><br /> Project Description: Angular 4 class project. Project was built and launched using the latest iteration of the Angular framework, Firebase, and AWS.<br /><br />
@@ -124,8 +162,9 @@
               </li>
               <hr />
 
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/Sue.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
               <li class="media">
-                <img class="d-flex mr-3 thumbnail col-md-6" src="img/Sue.jpg" alt="Sue Hawley Designs Project Image" style="width: 50%;">
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/Sue.jpg" alt="Sue Hawley Designs Project Image" style="width: 50%;">
                 <div class="media-body col-md-6">
                   <h4 class="mt-0 mb-1">Sue Hawley Designs</h4>
                   Project Date: 2017(Launch Pending)<br /><br />
@@ -135,8 +174,9 @@
               </li>
               <hr />
 
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/magic.jpg" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
               <li class="media">
-                <img class="d-flex mr-3 thumbnail col-md-6" src="img/magic.jpg" alt="Magic Project Image" style="width: 50%;">
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/magic.jpg" alt="Magic Project Image" style="width: 50%;">
                 <div class="media-body col-md-6">
                   <h4 class="mt-0 mb-1">Magician Website</h4>
                   Project Date: 2017(Unrealized project)<br /><br />
@@ -146,9 +186,9 @@
               </li>
               <hr />
 
-
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/JA-site.png" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
               <li class="media">
-                <img class="d-flex mr-3 thumbnail col-md-6" src="img/JA-site.png" alt="Digital Forge Project Image" style="width: 50%;">
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/JA-site.png" alt="Digital Forge Project Image" style="width: 50%;">
                 <div class="media-body col-md-6">
                   <h4 class="mt-0 mb-1">Jubilee Austin Site</h4>
                   Project Date: 2016<br /><br />
@@ -158,8 +198,9 @@
               </li>
               <hr />
 
+              <img class="d-flex mr-3 thumbnail col-md-6 hidden-md-up" src="img/rp-site.png" alt="Placeholder image of project" style="width: 90%; margin-bottom: 1rem;">
               <li class="media">
-                <img class="d-flex mr-3 thumbnail col-md-6" src="img/rp-site.png" alt="Placeholder image of project" style="width: 50%;">
+                <img class="d-flex mr-3 thumbnail col-md-6 hidden-sm-down" src="img/rp-site.png" alt="Placeholder image of project" style="width: 50%;">
                 <div class="media-body col-md-6">
                   <h4 class="mt-0 mb-1">Rogue Pickings Site</h4>
                   Project Date: 2016<br /><br />
@@ -175,26 +216,24 @@
       </div>
     </section>
 
-<!-- Make image responsive -- pop to top under 800. section is also not 100% under 800 -->
   <section id="about">
     <div class="container-fluid" style="background: transparent">
       <div class="col-sm-12">
-        <h1 class="text-center">About Caroline</h1>
+        <h1 class="text-center">The Story</h1>
         <div class="row">
           <div class="col-md-12 about-text">
             <div class="media">
-              <img class="d-flex align-self-center mr-3 img-fluid img-thumbnail rounded-img" src="img/profile.jpg" alt="Generic placeholder image">
+              <!-- <img class="d-flex align-self-center mr-3 img-fluid img-thumbnail hidden-md-down" src="img/profile.jpg" alt="Generic placeholder image"> -->
               <div class="media-body">
-                <p>After spending over 10 years working in theatre and costuming, I decided it was time for a change of pace. Using resources available online, I taught myself HTML and CSS and a smidgeon of JavaScript, and learned to make websites.  I started creating sites on a freelance basis until I was hired full-time for these skills.
+                <p>After spending over 10 years working in theatre and costuming, I decided it was time for a change of pace. Using resources available online, I taught myself HTML and CSS and a smidgeon of JavaScript, and learned to make websites.  I started creating sites on a freelance basis; eventually I was hired full-time for these skills, but my business lives on.
                 <br /><br />
-                In my new role, I learned about digital and inbound marketing and redesigned the company website, becoming an expert in the CMS Joomla along the way. On transition to the programming team, I had the opportunity to learn Bootstrap, Sass, Angular, Django, and Python while contributing to several apps being built in-house.  On top of this, I built the website for the company's first app.<br><br>
+                In my new role, I learned about digital and inbound marketing and redesigned the company website, becoming an expert in the CMS Joomla, SEO, and marketing strategies along the way. On transition to the programming team, I had the opportunity to learn Bootstrap, Sass, Angular, Django, and Python while contributing to several apps being built in-house.  On top of this, I built the website for the company's first app.<br><br>
                 What's next?  I'd like to learn enough to become an effective full-stack developer, and to that end am working on Python and the trickier frameworks. In the meantime, I'm working on becoming excellent at Javascript and designing as many different kinds of sites as I can.
                 </p>
-<!-- Make section responsive -- under 800 all sections should be 100% wide-->
                   <div class="row align-content-center" style="padding: 2rem;" id="">
-                    <div class="col contactInfo"><a href="mailto:"><i class="fa fa-envelope-o fa-lg"></i>&nbsp;</nbsp>Email for Quote</a></div>
-                    <div class="col contactInfo"><a href="#" download>&nbsp;</nbsp>Download Resume PDF</a></div>
-                    <div class="col contactInfo">
+                    <div class="col-sm-12 col-md-4 contactInfo"><a href="mailto:carolineslaporta@gmail.com"><i class="fa fa-envelope-o fa-lg"></i>&nbsp;</nbsp>Email for Quote</a></div>
+                    <div class="col-md-4 contactInfo hidden-sm-down"><a href="#" download>&nbsp;</nbsp>Download Resume PDF</a></div>
+                    <div class="col-sm-12 col-md-4 contactInfo">
                       <div class="row">
                         <div class="col"><a href="www.facebook.com"><i class="fa fa-github-square fa-2x"></i></a></div>
                         <div class="col"><a href="www.twitter.com"><i class="fa fa-facebook-square fa-2x"></i></a></div>
@@ -217,26 +256,25 @@
     <footer id="footer-main">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
-            <p>&copy; 2017</p>
-            <p>coded by <a href="">La Porta Web Services</a></p>
+          <div class="col-sm-4">
+            <p>&copy; 2017 <a href="/web/"> La Porta Web Services</a></p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-2">
             <ul class="list-unstyled">
               <li><a href="/index.html">Home</a></li>
               <li><a href="/web.html">Web</a></li>
-              <li><a href="/upcoming.html">Upcoming</a></li>
+              <!-- <li><a href="/upcoming.html">Upcoming</a></li> -->
               <li><a href="/costumes.html">Costumes</a></li>
             </ul>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-2 hidden-sm-down">
               <ul class="list-unstyled">
                 <li><a href="https://www.linkedin.com/in/carolineslaporta/">LinkedIn</a></li>
                 <li><a href="https://www.instagram.com/caroline9l/">Instagram</a></li>
                 <li><a href="https://github.com/Caroline9L/">GitHub</a></li>
               </ul>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-6 col-md-4">
               <h6 style="color: #9305f6; font-family: 'Yellowtail', cursive;">Last Words</h6>
               <blockquote class="blockquote">
               <p class="mb-0">"Repeat to yourself, 'It's just a show. I should really just relax.'" </p>
