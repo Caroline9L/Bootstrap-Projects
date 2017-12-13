@@ -1,0 +1,722 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+
+
+
+
+/*****BASE STYLES*****/
+html {
+  color: #000;
+  font-size: 16px;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   /*colors ===================================
+
+  Violet: #8a24ab;
+  Black: #000;
+  Grey: #abacaa;
+
+  ============================================*/
+
+
+/*************MOBILE STYLES********************/
+body, html {
+  background: url(../img/forest-background-copy.jpg) repeat 100% 100% fixed;
+  background-color: #abacaa;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 767px;
+}
+
+/*****HEADER MOBILE********************************************8*****/
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h3 {
+  color: #8a24ab;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.25em;
+  text-align: center;
+  }
+
+  #headline {
+    width: 96%;
+    align-content: center;
+    margin: 0;
+  }
+
+/*****NAV MOBILE*******************************************/
+
+#navigation {
+  width: 100%;
+  align-content: center;
+  margin: 0;
+  padding: 2%;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  margin: auto;
+  list-style: none;
+  padding: 0px;
+}
+
+nav ul li{
+  border-bottom: 1px solid #8a24ab;
+  text-align: center;
+  color: #000;
+  padding: 5px 0;
+}
+
+nav ul li a {
+  color: #000;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #8a24ab;
+}
+
+ /***** ABOUT MOBILE*******************************************************/
+
+ #about .full-width {
+   margin: auto;
+   width: 94%;
+   max-width: 960px;
+   clear: both;
+   padding: 2%;
+   align-content: center;
+ }
+
+#about h1 {
+   color: #8a24ab;
+   font-family: 'Satisfy', cursive;
+   font-size: 4.5em;
+   text-align: center;
+ }
+
+ #about img {
+    align-content: center;
+    border: 3px solid #8a24ab;
+    margin: 0;
+ }
+
+ #about p {
+   clear: both;
+   color: #000;
+   font-size: 1.125em;
+   line-height: 1em;
+   padding: 2%;
+}
+
+  #about a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  #about a:hover{
+    color: #8a24ab;
+  }
+
+ /***** PROJECTS MOBILE**************************************************/
+
+ #projects .full-width {
+     padding: 2%;
+ }
+
+.project {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+  width: 96%;
+}
+
+ #projects h3 {
+   color: #8a24ab;
+   font-family: 'Satisfy', cursive;
+   font-size: 3.5em;
+   margin: 0;
+   padding: 2%;
+   text-align: center;
+ }
+
+ #projects img {
+    border: 3px solid #8a24ab;
+    margin: 0;
+    align-content: center;
+  }
+
+#projects p {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125em;
+  line-height: 1em;
+  padding: 2%;
+  align-content: center;
+  margin: 0;
+}
+
+/*****CONTACT MOBILE*******************************************/
+
+#contact .full-width {
+  padding: 2%;
+  clear: both;
+  align-content: center;
+}
+
+#contact h3 {
+  color: #8a24ab;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 2%;
+  clear: both;
+  text-align: center;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.125em;
+  line-height: 2em;
+  margin: 0 auto;
+  margin-left: 18%;
+}
+
+#contact #socialmedia-header {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+  line-height: 4em;
+  padding: 2%;
+  text-align: center;
+}
+
+#contact ul {
+  list-style: none;
+  margin: 0;
+  align-content: center;
+  padding-left: 2%;
+}
+
+#contact ul li {
+  width: 22%;
+  display: inline-block;
+  align-content: center;
+  margin: 0;
+}
+
+#contact ul img {
+  font-size: 1.6em;
+  margin: 0;
+  padding: 15%;
+}
+
+/*****FOOTER MOBILE*********************************************************/
+
+footer .full-width {
+  margin: auto;
+  align: center;
+}
+
+footer h2 {
+  color: #000;
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 2em;
+  text-align: center;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@media (min-width: 768px) {
+/*****BASE STYLES TABLET *********************************************************/
+html {
+  font-size: 16px;
+ }
+
+body {
+  background: url(../img/forest-background-copy.jpg) repeat 100% 100% fixed;
+  background-color: #abacaa;
+  font-family: 'Raleway', sans-serif;
+  }
+
+/***** GRID TABLET *************************************************************/
+
+.full-width {
+  margin: 0;
+  width: 100%;
+  max-width: 939px;
+ }
+
+/*****HEADER TABLET***********************************************************************/
+
+header h3 {
+  font-size: 2.5em;
+  margin: 0;
+  padding-top: 2%;
+}
+
+#headline {
+  margin: auto;
+}
+
+/*****NAV TABLET****************************************************/
+
+#navigation {
+  width: 100%;
+  border-bottom: 1px solid #8a24ab;
+}
+
+nav {
+  margin: 0;
+  align: center;
+ }
+
+nav ul li{
+  display: inline-block;
+  border-bottom: none;
+  }
+
+nav ul li a {
+  color: #000;
+  font-size: 1.25em;
+  padding-left: 125px;
+  }
+
+/***** ABOUT TABLET********************************************/
+
+#about .full-width {
+  clear: both;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  }
+
+#about h1 {
+  font-size: 4em;
+  padding-top: 20px;
+  margin: 0;
+  }
+
+#about img {
+   float: left;
+   width: 20%;
+   margin: 0px;
+   margin-right: 3%;
+  }
+
+#about p {
+  font-size: 1.3em;
+  line-height: 1.25em;
+  padding: 4%;
+  float: right;
+ }
+
+/***** PROJECTS TABLET*******************************************/
+
+#projects .full-width {
+  clear: both;
+  width: 100%;
+}
+
+#projects h3 {
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+  }
+
+.project {
+  width: 28%;
+  float: left;
+}
+
+.project img {
+  }
+
+.project p {
+}
+
+/*****CONTACT TABLET**********************************************************/
+
+#contact .full-width {
+  clear: both;
+  padding: 2%;
+  text-align: center;
+  padding-top: 50px;
+ }
+
+#contact h3 {
+ }
+
+#contact a {
+  font-size: 1.5em;
+  margin-left: 33%;
+}
+
+#contact #socialmedia-header {
+ }
+
+#contact ul {
+}
+
+#contact ul li {
+ }
+
+#contact ul img {
+}
+
+/*****FOOTER TABLET**************************************************/
+
+footer .full-width {
+  padding-top: 10px;
+ }
+
+footer h2 {
+  text-align: left;
+  }
+
+
+@media (min-width: 940px) {
+/*****BASE STYLES DESKTOP *********************************************************/
+html {
+  font-size: 16px;
+}
+
+body {
+  background: url(../img/forest-background-copy.jpg) repeat 100% 100% fixed;
+  background-color: #abacaa;
+  font-family: 'Raleway', sans-serif;
+}
+
+/***** GRID DESKTOP *************************************************************/
+
+.full-width {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1080px;
+}
+
+/*****HEADER DESKTOP***********************************************************************/
+
+header {
+  width: 100%;
+}
+
+#headline {
+  width: 30%;
+  float: left;
+  margin: 0;
+}
+
+#headline h3 {
+  float: left;
+  font-size: 1.75em;
+  top: 28px;
+  }
+
+/*****NAV DESKTOP****************************************************/
+
+#navigation {
+  width: 60%;
+  float: right;
+  padding: 1%;
+}
+
+nav {
+  margin: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  border-bottom: none;
+  top: 28px;
+}
+
+nav ul li a {
+  font-size: 1.125em;
+  padding-left: 100px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+}
+
+ /***** ABOUT DESKTOP********************************************/
+
+ #about .full-width {
+   align-content: center;
+   width: 96%;
+   max-width: 1080px;
+   clear: both;
+   margin: 0 auto;
+   padding: .5%;
+ }
+
+#about h1 {
+   font-size:4.7em;
+   text-align:center;
+   margin: 0;
+   padding-top: 5%;
+ }
+
+#about img {
+ }
+
+ #about p {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin: 0;
+}
+
+  #about a{
+  }
+
+  #about a:hover{
+  }
+
+ /***** PROJECTS DESKTOP*******************************************/
+
+ #projects .full-width {
+   clear: both;
+   padding: 2%;
+ }
+
+ #projects h3 {
+   font-size: 3em;
+ }
+
+ #projects img {
+}
+
+#projects p {
+  font-size: 1.5em;
+}
+
+/*****CONTACT DESKTOP**********************************************************/
+
+#contact .full-width {
+  clear: both;
+  padding: 2%;
+}
+
+#contact h3 {
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+}
+
+#contact a {
+  font-size: 1.5em;
+  margin-left: 35%;
+}
+
+#contact #socialmedia-header {
+  font-size: 1.75em;
+}
+
+#contact ul {
+}
+
+#contact ul li {
+}
+
+#contact ul img {
+  font-size: 2.5em;
+}
+
+/*****FOOTER DESKTOP**************************************************/
+
+footer .full-width {
+  clear: left;
+  height: 20px;
+  margin: auto;
+  text-align: left;
+}
+
+footer h2 {
+  color: #000;
+  font-size: .875em;
+  font-weight: bold;
+  text-align: left;
+}
