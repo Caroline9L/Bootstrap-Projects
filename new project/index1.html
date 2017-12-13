@@ -4,37 +4,49 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/me.jpg">
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Yellowtail" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="css/styles1.css">
   </head>
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-light navbar-full" id="id-main">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-toggleable-md navbar-light navbar-full fixed-top" id="id-main">
+      <button class="navbar-toggler navbar-toggler-right" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!--<a class="navbar-brand" href="#">My Logo</a>-->
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
+      <a class="navbar-brand" href="/index.html" style="font-family: 'Yellowtail', cursive; color: #9305f6; font-size: 1.5rem;">Caroline La Porta</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="/web.html">Web Development</a>
+            <a class="nav-link" href="/web">Web Development</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="/upcoming">Upcoming</a>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="/upcoming.html">Upcoming</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/costumes.html">Costumes</a>
+            <a class="nav-link" href="/costumes">Costumes</a>
           </li>
         </ul>
-        <a class="navbar-brand" href="/index.html" style="font-family: 'Yellowtail', cursive; color: #9305f6; font-size: 1.5rem;">Caroline La Porta</a>
+
       </div>
     </nav>
 
@@ -69,7 +81,7 @@
                 <img src="img/code2.jpg" alt="code on screen" />
                 <div class="card-block">
                   <p class="card-text">
-                    Versed in HTML5, CSS3, JavaScript, Bootstrap, Sass. Experience with Joomla CMS.
+                    Versed in HTML5, CSS3, JavaScript, Angular 2+, Bootstrap, Sass. Experience with Joomla CMS.
                   </p>
                   <a class="btn btn-success-outline" href="/web.html" role="button">Learn More</a>
                 </div>
@@ -82,9 +94,9 @@
                 <img src="img/code.png" alt="code on screen" />
                 <div class="card-block">
                   <p class="card-text">
-                    Becoming more proficient in Angular(JS) 4, Python, and Django to become a full-stack developer.
+                    Working on my proficiency in Python and Django with the goal of becoming a full-stack developer.
                   </p>
-                  <a class="btn btn-success-outline" href="/upcoming.html" role="button">Learn More</a>
+                  <!-- <a class="btn btn-success-outline" href="/upcoming.html" role="button">Learn More</a> -->
                 </div>
               </div>
               <div class="card">
@@ -107,19 +119,20 @@
       </div>
     </section>
 
-  <section id="about" class="jumbotron">
-    <div class="container" style="background: transparent">
-      <div class="col-sm-12">
-        <h1>About Me</h1>
-        <div class="row">
-          <div class="col-md-12 about-text">
-            <div class="media">
-              <img class="d-flex align-self-center mr-3 img-fluid img-thumbnail rounded-img" src="img/profile.jpg" alt="Generic placeholder image">
-              <div class="media-body">
-                <h5 class="mt-0">Artist and creator, medium not important.
-                </h5>
-                <p>Web design and development is my new love and passion! I love creating web sites that reflect the personality of the owner and brand. Using code to manipulate what appears on screen is like magic to me, and yet another way I love to build from scratch! <br /></p>
-                <p class="mb-0">My first love and career is costuming. I have an MFA in costume design, and have worked for theatres in academia, regional production, and even on Broadway! I adore my side projects these days; the garments I am allowed to create allow me to stretch my knowledge and imagination to the limit. </p>
+    <section id="about">
+      <div class="container-fluid" style="background: transparent">
+        <div class="col-sm-12">
+          <img class="d-flex align-self-center rounded-img hidden-md-up" src="img/profile.jpg" alt="Caroline La Porta portrait"
+            style="width: 90%; margin-bottom: 1rem;">
+          <h1 class="text-center">Artist and creator, medium not important</h1>
+          <div class="row">
+            <div class="col-md-12 about-text">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3 img-fluid img-thumbnail rounded-img hidden-sm-down" src="img/profile.jpg" alt="Caroline La Porta portrait">
+                <div class="media-body">
+                
+                <p>I came to web design and development late, and am so sad that I've missed out on this passion for so much of my life. I love creating web sites and apps that reflect the personality of the owner and brand. Using code to manipulate what appears on screen is like magic to me, and yet another way I have discovered to build a finished product from scratch! Check out my <a href="/web">web development</a> page for examples of some of the projects I've worked on so far.<br /></p>
+                <p class="mb-0">My first love and career is costuming. I have an MFA in costume design, and have worked for theatres in academia, regional production, and even on Broadway! Though I no longer work full-time in the industry, I adore being commissioned for side projects; the garments I am able to create in my free time allow me to stretch my knowledge and imagination to the limit. Visit my <a href="/costumes">Costumes page</a> for examples of the garments I've built, and feel free to get in touch if you need something made!</p>
               </div>
             </div>
           </div>
@@ -172,6 +185,19 @@
                     </p>
                   </div>
                 </div>
+                
+                <div class="card">
+                  <div class="card-block">
+                    <h4 class="card-title">Codepen</h4>
+                  </div>
+                  <a href="https://codepen.io/Caroline9L/" class="text-center"><i class="fa fa-codepen fa-5x"></i></a>
+                  <div class="card-block">
+                    <p class="card-text">
+                      Visit to see new Javascript projects and experiments in action.
+                    </p>
+                  </div>
+                </div>
+
 
               </div>
             </div>
@@ -182,26 +208,46 @@
     <footer id="footer-main">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
-            <p>&copy; 2017</p>
-            <p>coded by La Porta Web Services</p>
+          <div class="col-sm-4">
+            <p>&copy; 2017
+              <a href="http://carolineslaporta.com/web/">La Porta Web Services</a>
+            </p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-2">
             <ul class="list-unstyled">
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/web.html">Web</a></li>
-              <li><a href="/upcoming.html">Upcoming</a></li>
-              <li><a href="/costumes.html">Costumes</a></li>
+              <li>
+                <a href="/index.html">Home</a>
+              </li>
+              <li>
+                <a href="/web">Web</a>
+              </li>
+              <!--<li><a href="/upcoming.html">Upcoming</a></li>-->
+              <li>
+                <a href="/costumes">Costumes</a>
+              </li>
             </ul>
           </div>
-          <div class="col-sm-3">
-              <ul class="list-unstyled">
-                <li><a href="https://www.linkedin.com/in/carolineslaporta/">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/caroline9l/">Instagram</a></li>
-                <li><a href="https://github.com/Caroline9L/">GitHub</a></li>
-              </ul>
-          </div>
-          <div class="col-sm-3">
+          <div class="col-sm-2">
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://github.com/Caroline9L/">GitHub</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/carolineslaporta/">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/caroline9l/">Instagram</a>
+              </li>
+               
+              <li>
+                <a href="https://twitter.com/MagicianAsst">Twitter</a>
+              </li>
+              <li>
+                <a href="https://codepen.io/Caroline9L/pens/public/">Codepen</a>
+              </li>
+            </ul>
+          </div>          
+          <div class="col-sm-4">
               <h6 style="color: #9305f6; font-family: 'Yellowtail', cursive;">Last Words</h6>
               <blockquote class="blockquote">
               <p class="mb-0">"Repeat to yourself, 'It's just a show. I should really just relax.'" </p>
@@ -212,9 +258,10 @@
       </div>
     </footer>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+  crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
